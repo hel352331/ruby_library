@@ -6,7 +6,7 @@ class Library
   attr_accessor :readers
   attr_accessor :orders
 
-  def initialize((data = {})
+  def initialize(data = {})
     @books   = data[:books]   || []
     @orders  = data[:orders]  || []
     @readers = data[:readers] || []
